@@ -1,0 +1,7 @@
+.book{
+	display: none;
+}
+.book.active{
+	display: block;
+}
+

@@ -1,0 +1,28 @@
+div{
+	background-color:black;
+	color:white;
+}
+
+.float-left{
+	float:left;
+	height: 300px;
+	width: 300px;
+}
+
+.float-right{
+	float:right;
+	height: 300px;
+	width: 300px;
+}
+
+.main{
+	color:pink;
+	background: transparent;
+	width:100%;
+}
+
+.clearfix::before,.clearfix::after{
+	content: ' ';
+	clear:both;
+	display:block;
+}
